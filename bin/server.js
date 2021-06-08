@@ -7,7 +7,7 @@ const db = new Mongo();
 
 async function main() {
   await db.connectMongo();
-  const path = '/output/Experian/inbound_xml'
+  const path = '/output/Experian/inbound_xml/Part_1'
   // const path = './test';
   const dirents = fs.readdirSync(path, { withFileTypes: true });
   const fileNames = dirents
