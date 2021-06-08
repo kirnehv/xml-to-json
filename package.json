@@ -1,0 +1,17 @@
+{
+  "name": "XMLToJson",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node ./bin/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "mongodb": "^3.6.9",
+    "nodemailer": "^6.6.1",
+    "xml2js": "^0.4.23"
+  }
+}

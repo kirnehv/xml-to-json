@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  app:
+    container_name: xmlToJson
+    build: .
+    environment:
+      TZ: "America/Los_Angeles"
+    volumes:
+      - data:/output
+volumes:
+  'data':
+    external:
+      name: fs.gsmhp.local/Public
