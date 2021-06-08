@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   app:
-    container_name: xmlToJson
+    container_name: xmlToJson_2
     build: .
     environment:
       TZ: "America/Los_Angeles"
