@@ -10,4 +10,4 @@ services:
 volumes:
   'data':
     external:
-      name: fs.gsmhp.local/Public
+      name: fs.gsmhp.local/EDI
