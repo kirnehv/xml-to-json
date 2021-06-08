@@ -14,6 +14,7 @@ async function main() {
     .filter(dirent => dirent.isFile())
     .map(dirent => dirent.name);
   for (let i = 0; i < fileNames.length; i++) {
+    console.log(fileNames[i])
     const filePath = path + '/' + fileNames[i];
     const archivePath = path + '/Archived/';
     const xml = await fs.readFileSync(filePath, {encoding: 'utf-8'});
